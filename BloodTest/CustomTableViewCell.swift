@@ -9,16 +9,18 @@
 import UIKit
 
 class CustomTableViewCell: UITableViewCell {
+    
+    var descriptionButtonTapped: (() -> Void)!
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBAction func infoButtonPressed(_ sender: UIButton) {
+        descriptionButtonTapped()
     }
-
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
-
-        // Configure the view for the selected state
+    @IBAction func bloodComponentTextField(_ sender: UITextField) {
     }
-
+    
+    @IBOutlet weak var bloodComponentVolumeField: UITextField!
+    @IBOutlet weak var bloodComponentLabel: UILabel!
+    
 }
+
+

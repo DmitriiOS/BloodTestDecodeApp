@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		634452222409A9E20030D163 /* PersonalDataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634452212409A9E20030D163 /* PersonalDataViewController.swift */; };
+		63737A462419179D006119A3 /* CustomDecodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63737A452419179D006119A3 /* CustomDecodeTableViewCell.swift */; };
+		638BB1A1240D348100597690 /* DecodeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BB1A0240D348100597690 /* DecodeTableViewController.swift */; };
+		638BB1A3240D368800597690 /* DecodeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638BB1A2240D368800597690 /* DecodeTableViewCell.swift */; };
+		638FB4592405B2CF00F7BE11 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638FB4582405B2CF00F7BE11 /* MainViewController.swift */; };
 		639EF2A524029E8E001C1FB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EF2A424029E8E001C1FB9 /* AppDelegate.swift */; };
 		639EF2A724029E8E001C1FB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EF2A624029E8E001C1FB9 /* SceneDelegate.swift */; };
-		639EF2A924029E8E001C1FB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 639EF2A824029E8E001C1FB9 /* ViewController.swift */; };
 		639EF2AC24029E8E001C1FB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639EF2AA24029E8E001C1FB9 /* Main.storyboard */; };
 		639EF2AE24029E91001C1FB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639EF2AD24029E91001C1FB9 /* Assets.xcassets */; };
 		639EF2B124029E91001C1FB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639EF2AF24029E91001C1FB9 /* LaunchScreen.storyboard */; };
+		63E72E2B24068D460062C105 /* BloodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63E72E2A24068D460062C105 /* BloodModel.swift */; };
+		63F86F2424063A2300E30565 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63F86F2324063A2300E30565 /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		634452212409A9E20030D163 /* PersonalDataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalDataViewController.swift; sourceTree = "<group>"; };
+		63737A452419179D006119A3 /* CustomDecodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDecodeTableViewCell.swift; sourceTree = "<group>"; };
+		638BB1A0240D348100597690 /* DecodeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeTableViewController.swift; sourceTree = "<group>"; };
+		638BB1A2240D368800597690 /* DecodeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecodeTableViewCell.swift; sourceTree = "<group>"; };
+		638FB4582405B2CF00F7BE11 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		639EF2A124029E8E001C1FB9 /* BloodTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BloodTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639EF2A424029E8E001C1FB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		639EF2A624029E8E001C1FB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		639EF2A824029E8E001C1FB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		639EF2AB24029E8E001C1FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		639EF2AD24029E91001C1FB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639EF2B024029E91001C1FB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		639EF2B224029E91001C1FB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		63E72E2A24068D460062C105 /* BloodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodModel.swift; sourceTree = "<group>"; };
+		63F86F2324063A2300E30565 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +70,14 @@
 			children = (
 				639EF2A424029E8E001C1FB9 /* AppDelegate.swift */,
 				639EF2A624029E8E001C1FB9 /* SceneDelegate.swift */,
-				639EF2A824029E8E001C1FB9 /* ViewController.swift */,
+				638FB4582405B2CF00F7BE11 /* MainViewController.swift */,
+				63F86F2324063A2300E30565 /* CustomTableViewCell.swift */,
+				63737A452419179D006119A3 /* CustomDecodeTableViewCell.swift */,
+				63E72E2A24068D460062C105 /* BloodModel.swift */,
 				639EF2AA24029E8E001C1FB9 /* Main.storyboard */,
+				638BB1A0240D348100597690 /* DecodeTableViewController.swift */,
+				638BB1A2240D368800597690 /* DecodeTableViewCell.swift */,
+				634452212409A9E20030D163 /* PersonalDataViewController.swift */,
 				639EF2AD24029E91001C1FB9 /* Assets.xcassets */,
 				639EF2AF24029E91001C1FB9 /* LaunchScreen.storyboard */,
 				639EF2B224029E91001C1FB9 /* Info.plist */,
@@ -138,8 +156,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				639EF2A924029E8E001C1FB9 /* ViewController.swift in Sources */,
+				63737A462419179D006119A3 /* CustomDecodeTableViewCell.swift in Sources */,
+				638FB4592405B2CF00F7BE11 /* MainViewController.swift in Sources */,
+				63E72E2B24068D460062C105 /* BloodModel.swift in Sources */,
+				634452222409A9E20030D163 /* PersonalDataViewController.swift in Sources */,
+				638BB1A3240D368800597690 /* DecodeTableViewCell.swift in Sources */,
 				639EF2A524029E8E001C1FB9 /* AppDelegate.swift in Sources */,
+				63F86F2424063A2300E30565 /* CustomTableViewCell.swift in Sources */,
+				638BB1A1240D348100597690 /* DecodeTableViewController.swift in Sources */,
 				639EF2A724029E8E001C1FB9 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,7 +318,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DmitriOS.BloodTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +336,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.DmitriOS.BloodTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
